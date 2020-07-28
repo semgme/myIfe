@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>三栏布局</title>
+    <style>
+        html,
+        body {
+            margin: 0;
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            /* align-items: flex-start; */
+            justify-content: space-around;
+        }
+
+        .left {
+            width: 200px;
+            height: 100%;
+            background-color: greenyellow;
+        }
+
+        .right {
+            width: 200px;
+            height: 100%;
+            background-color: skyblue;
+        }
+
+        .middle{
+            background-color: royalblue;
+            height: 100%;
+            width: 100%;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="left"></div>
+    <div class="middle"></div>
+    <div class="right"></div>
+
+</body>
+
+</html>
