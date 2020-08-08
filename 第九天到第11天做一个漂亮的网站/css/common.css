@@ -1,0 +1,60 @@
+.public-container{
+    position: relative;
+    margin: 0 auto;
+    width: 970px;
+    /* height: 200px; */
+    /* background-color: #fff; */
+}
+
+.public-footer{
+    padding-top: 84px;
+    background-color: #141414;
+    height: 410px;
+}
+
+.public-footer-container{
+    width: 1200px;
+    height: 198px;
+    margin: 0 auto;
+}
+
+.public-footer dl{
+    float: left;
+    height: 198px;
+    width: 298px;
+}
+
+.links li{
+    float: left;
+    margin-right: 24px;
+}
+
+dt,
+dd a{
+    line-height: 48px;
+}
+
+dd{
+    line-height: 26px;
+}
+
+dt{
+    color: #fff;
+}
+
+dd,
+dd a{
+    color: #676767;
+}
+
+.links{
+    margin-top: 30px;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}

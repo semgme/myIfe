@@ -1,0 +1,44 @@
+body, div, span, p, h1, h2, h3, h4, h5, h6, ul, ol, li, a, input, form, dl, dt, dd{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif, Arial, Helvetica;
+    /* font-size: 16px; */
+    font-weight: lighter;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+}
+
+a:hover,
+button,
+input[type="sub"]{
+    cursor: pointer;
+}
+
+img{
+    display: block;
+    border: none;
+}
+
+.clearfix{
+    zoom: 1;
+}
+
+.clearfix:after{
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0;
+}
+
+h2{
+    font-size: 40px;
+}

@@ -1,0 +1,398 @@
+/* 头部 */
+
+.index-header {
+    background: url(../image/upload/background01.png);
+    height: 990px;
+}
+
+.mask {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+}
+
+/* hello */
+
+.hello {
+    padding-top: 70px;
+}
+
+h1 {
+    line-height: 230px;
+    color: #fff;
+    font-size: 62px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.hello p {
+    width: 700px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* account */
+
+.account {
+    border: 1px solid #333;
+    margin-top: 80px;
+    padding-bottom: 30px;
+}
+
+.account h4 {
+    padding-top: 20px;
+    color: rgba(255, 255, 255, 0.3);
+    text-align: center;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+.account p {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.2);
+    font-size: 14px;
+}
+
+.form {
+    margin-top: 44px;
+    margin-left: 100px;
+}
+
+.inp {
+    margin-right: 30px;
+    width: 292px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    ;
+    background-color: transparent;
+    color: #fff;
+}
+
+/* ?.inp:focus{----------------------------------------------
+    border-color: orangered;
+} */
+
+.sub {
+    width: 124px;
+    height: 50px;
+    border: none;
+}
+
+.sub:hover {
+    background-color: orangered;
+}
+
+/* landing-page */
+
+.landing-page {
+    padding-top: 40px;
+    height: 600px;
+    width: 1060px;
+}
+
+h6 {
+    font-weight: 500;
+    line-height: 60px;
+    text-align: center;
+}
+
+.landing-page  h2 {
+    margin: 0 auto;
+    width: 700px;
+    text-align: center;
+}
+
+.landing-page ul {
+    margin-top: 80px;
+
+}
+
+.landing-page li {
+    width: 400px;
+    height: 140px;
+}
+
+.landing-page li:nth-child(1),
+.landing-page li:nth-child(3){
+    margin-right: 240px;
+}
+
+.landing-page img{
+    margin-right: 26px;
+}
+
+h3 {
+    margin-top: -16px;
+    line-height: 40px;
+    font-weight: 400;
+}
+
+.landing-page p{
+    overflow: hidden;
+}
+
+.landing-page .img03{
+    position: relative;
+    right: 10px;
+    margin-top: 10px;
+    margin-right: 12px;
+}
+
+.landing-page .img04{
+    position: relative;
+    right: 5px;
+    margin-right: 16px;
+}
+
+/* policies  */
+.policies{
+    background-image: url(../image/upload/background02.png);
+    height: 800px
+}
+
+.policies h2{
+    padding-top: 200px;
+    padding-bottom: 100px;
+    font-weight: 600;
+    width: 450px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.policies p{
+    padding-bottom: 60px;
+    width: 420px;
+    color: rgba(255, 255, 255, 0.4)
+}
+
+.policies button{
+    margin-right: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 240px;
+    height: 60px;
+    background: transparent;
+    color: #fff;
+}
+
+.policies button:hover{
+    background-color: #fff;
+    color: #333;
+}
+
+.policies img{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    border-top-left-radius: 32px;
+    border-bottom-left-radius: 32px;
+}
+
+/* Products */
+.Products{
+    height: 580px;
+}
+
+.Products h2{
+    line-height: 220px;
+    text-align: center;
+}
+
+.Products-describe{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Products-describe div{
+    width: 260px;
+}
+
+.Products-describe div img{
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.Products-describe div p{
+    text-align: center;
+}
+
+/* business */
+.business{
+    height: 1000px;
+    background-color: #f2f2f2;
+}
+
+.business01{
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.business h4{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    width: 320px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.business p{
+    width: 320px;
+}
+
+/* team */
+.team{
+    height: 1080px;
+    /* background-color: gray; */
+}
+
+.team h2{
+    padding-top: 100px;
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+.team p{
+    margin: 0 auto;
+    width: 700px;
+    text-align: center;
+}
+
+.member{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.teacher{
+    width: 470px;
+    height: 340px;
+}
+
+.member .teacher01,
+.member .teacher02{
+    margin-top: 52px;
+    margin-bottom: 30px;
+}
+
+.teacher01{
+    position: relative;
+}
+
+.mask01{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 470px;
+    height: 340px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+}
+
+.mask01 h4{
+    padding-top: 60px;
+    line-height: 40px;
+}
+
+.mask01 div{
+    padding-bottom: 40px;
+}
+
+.links01{
+    display: inline-block;
+}
+
+.links01 a{
+    padding: 20px;
+    margin-left: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+}
+
+.teacher01:hover .mask01{
+    display: block;
+}
+
+/* contacts */
+.contacts{
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    height: 700px;
+}
+
+.contacts-from{
+    box-sizing: border-box;
+    padding: 0 30px 60px 30px;
+    margin-top: 70px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 470px;
+    height: 560px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.contacts-from h4{
+    line-height: 100px;
+    font-weight: 500;
+}
+
+.contacts-from input,
+.contacts-from textarea,
+.contacts-from button{
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: block;
+    width: 370px;
+    height: 50px;
+}
+
+.contacts-from textarea{
+    height: 140px;
+}
+
+.contacts-from input::placeholder,
+.contacts-from textarea::placeholder{
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.contacts-from button{
+    border: none;
+    background-color: #141414;
+    color: #fff;
+}
+
+.contacts-detail{
+    padding-top: 100px;
+    width: 380px;
+}
+
+.contacts-detail h2{
+    line-height: 100px;
+}
+
+.contacts-detail p{
+    margin-bottom: 50px;
+}
+
+.contacts-detail li{
+    height: 50px;
+}
+
+.contacts-detail img{
+    margin-right: 20px;
+}
+
+.contacts-detail li:nth-child(1){
+    margin-bottom: 26px;
+}
+
+.contacts-detail img{
+    padding-top: 4px;
+}
