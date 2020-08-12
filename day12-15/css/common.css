@@ -1,0 +1,30 @@
+html, body, h1, h2, h3, h4, h5, h6, div, span, p, input, a{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    display: block;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.clearfix::after{
+    display: block;
+    content: "";
+    height: 0;
+    visibility: hidden;
+}
+
+.fr{
+    float: right;
+}
+
+.fl{
+    float: left;
+}

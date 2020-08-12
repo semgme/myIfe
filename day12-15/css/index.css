@@ -1,0 +1,45 @@
+html,body, .top-center-bottom{
+    height:100%;
+  }
+
+body{
+    display: flex;
+}
+
+.room{
+    flex-grow: 1;
+    min-width: 100px;
+}
+
+.nav1{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 100%;
+    background-color: #1d2531;
+}
+
+.icon{
+    display: flex;
+    width: 100%;
+    /* height: 400px; */
+    background-color: aqua;
+}
+
+.set{
+    display: flex;
+    width: 100%;
+    background-color: blue;
+}
+
+.nav2{
+    height: 100%;
+    width: 100px;
+    background-color: #333333;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: #555555;
+}
